@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="Apache Derby (Embedded) - ticket_crud">
+  <database-model serializer="dbm" dbms="DERBY" family-id="DERBY" format-version="4.15">
+    <root id="1">
+      <ServerVersion>10.14.1.0</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="APP"/>
+    <schema id="3" parent="1" name="NULLID"/>
+    <schema id="4" parent="1" name="SQLJ"/>
+    <schema id="5" parent="1" name="SYS"/>
+    <schema id="6" parent="1" name="SYSCAT"/>
+    <schema id="7" parent="1" name="SYSCS_DIAG"/>
+    <schema id="8" parent="1" name="SYSCS_UTIL"/>
+    <schema id="9" parent="1" name="SYSFUN"/>
+    <schema id="10" parent="1" name="SYSIBM"/>
+    <schema id="11" parent="1" name="SYSPROC"/>
+    <schema id="12" parent="1" name="SYSSTAT"/>
+    <schema id="13" parent="1" name="USER1">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <table id="14" parent="13" name="TICKETS"/>
+    <column id="15" parent="14" name="TICKET_ID">
+      <Position>1</Position>
+      <DataType>INTEGER|4s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="16" parent="14" name="DESTINATION">
+      <Position>2</Position>
+      <DataType>VARCHAR(100)|12s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="17" parent="14" name="DEP_TIME">
+      <Position>3</Position>
+      <DataType>VARCHAR(30)|12s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="18" parent="14" name="ARR_TIME">
+      <Position>4</Position>
+      <DataType>VARCHAR(30)|12s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="19" parent="14" name="TICKET_NUM">
+      <Position>5</Position>
+      <DataType>VARCHAR(100)|12s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="20" parent="14" name="SEAT_NUM">
+      <Position>6</Position>
+      <DataType>INTEGER|4s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="21" parent="14" name="SQL190404030510740">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>TICKET_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="22" parent="14" name="SQL190404030510740">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>TICKET_ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

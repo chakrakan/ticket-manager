@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Thu Apr 04 12:39:02 EDT 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.1.0 - (1808820): instance a816c00e-0169-e937-cc04-00000f680200 
+on database directory C:\Users\kanis\Documents\development\clientstuff\TicketCRUD\lib\ticket_crud with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@4783da3f 
+Loaded from file:/C:/Users/kanis/Documents/development/clientstuff/TicketCRUD/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=12+33
+user.dir=C:\Users\kanis\Documents\development\clientstuff\TicketCRUD
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
